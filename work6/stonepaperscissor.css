@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    height: 50px;
+    line-height: 50px;
+    width: 1366px;
+    background-color: #463239;
+    font-family:georgia;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    width: 1366px;
+    height: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;  
+}
+
+.box1{
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+
+.box2{
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:1px solid black;
+
+}
+
+.box3{
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:1px solid black;
+
+}
+
+.box1 i{
+    font-size: 50px;
+    color: white;
+}
+
+.box2 i{
+    font-size: 50px;
+    color: white;
+}
+
+.box3 i{
+    font-size: 50px;
+    color: white;
+}
+
+.score{
+    width: 1366px;
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;  
+}
+.you{
+    width:90px;
+    height: 60px;
+}
+
+.comp{
+    width:90px;
+    height: 60px;
+}
+
+.per{
+    font-size:25px;
+    font-family: 'georgia';
+    color: black;
+    font-weight: bold;
+}
+.numP{
+    font-size:30px;
+    font-family: 'georgia';
+    color: black;
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.numC{
+    font-size:30px;
+    font-family: 'georgia';
+    color: black;
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.box:hover{
+    border: 4px solid black;
+}
+.resultbox{
+    margin-top: 50px;
+    width: 1366px;
+    background-color:#A30B37;
+    height:150px;
+    border: 0.2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.result{
+    text-align: center;
+    width: fit-content;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    font-family: 'georgia';
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+
+.reset{
+    font-family: georgia;
+    font-weight: bolder;
+    background-color: #e06e8e;
+    color:white;
+    border-radius: 2px solid ;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+}

@@ -1,0 +1,74 @@
+.container{
+    height: 800px;
+    gap: 2px;
+    background-color: #2a2a2a;
+}
+.row{
+    background-color: #141414;
+    height: 243px;
+   /* border: 2px solid green;*/
+}
+.head-row{
+    height: 80px;
+}
+
+.col-lg-2{
+    /*border: 2px solid black;*/
+    position: relative;
+    overflow: hidden;         /*studyyyyyy*/
+    border-radius: 8px;
+    cursor: pointer; 
+}
+.col-lg-2 img{
+    width:200px;
+    height: 200px;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+.layers{
+    color: #0f0e0e;
+    font-weight: 900;
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(236, 233, 19, 0.1),#f3f3eb);               /*studyyyyyyy*/
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+.layers h5{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.layers p{
+    font-weight: 900;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+.layers i{
+    color: #e6f0ef;
+    margin-top: 20px;
+    font-size: 20px;
+    background:#0f0e0e;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.col-lg-2:hover img{
+    transform: scale(1.1);
+}
+.col-lg-2:hover .layers{
+    height: 100%;
+}

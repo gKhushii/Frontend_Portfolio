@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <div class="input-box">
+            <input type="text" placeholder="Enter city name">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="content">
+            <img class="weather-icon" src="drizzle.png">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+        </div>
+        <div class="details">
+            <div class="humi">
+                <img src="humidity.png">
+                <div class="data">
+                    <p class="measureh">50%</p>
+                    <p class="attribute">Humidity</p>
+                </div>
+            </div>
+            <div class="speed">
+                <img src="wind.png">
+                <div class="data">
+                    <p class="measurew">15 km/h</p>
+                    <p class="attribute">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
